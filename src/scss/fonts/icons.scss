@@ -1,0 +1,103 @@
+%ic {
+	font-family: "icons";
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+%ico {
+	font-family: "icomoon";
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+[class*="_icon-"] {
+	&:before {
+		@extend %ic;
+		display: block;
+	}
+}
+
+[class*="-icon-"] {
+	&:before {
+		@extend %ico;
+		display: block;
+	}
+}
+
+._icon-youtube:before {
+	content: "\e900";
+}
+
+._icon-vk:before {
+	content: "\e901";
+}
+
+._icon-twitter:before {
+	content: "\e902";
+}
+
+._icon-telegram:before {
+	content: "\e903";
+}
+
+._icon-reddit:before {
+	content: "\e904";
+}
+
+._icon-pinterest:before {
+	content: "\e905";
+}
+
+._icon-map-marker:before {
+	content: "\e906";
+}
+
+._icon-instagram:before {
+	content: "\e907";
+}
+
+._icon-facebook:before {
+	content: "\e908";
+}
+
+._icon-facebook-2:before {
+	content: "\e909";
+}
+
+._icon-discord:before {
+	content: "\e90a";
+}
+
+._icon-basket:before {
+	content: "\e90b";
+}
+
+.-icon-selection-arrow-down-cart:before {
+	content: "\e920";
+}
+
+.-icon-remove-cart:before {
+	content: "\e921";
+}
+
+.-icon-left-arrow-to-catalog:before {
+	content: "\e922";
+}
+
+.-icon-heartlike:before {
+	content: "\e923";
+}
+
+.-icon-cart:before {
+	content: "\e924";
+}
