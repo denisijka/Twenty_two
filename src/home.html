@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ru">
+	@@include('html/_head.htm',{
+	"title":"TwentyTwo"
+	})
+	<body>
+		<div class="wrapper">
+			@@include('html/_header.htm',{})
+			<main class="page">
+				<section class="page__promo promo">
+					<div class="promo__container">
+						<div class="promo__item">
+							<div class="promo__content content-promo">
+								<h1 class="content-promo__title">Quis quisque mi rhoncus quis</h1>
+								<a href="catalog.html" data-da='.promo,767.98,1' class="content-promo__button button">Show catalog</a>
+							</div>
+							<div class="promo__image">
+								<img data-src="@img/promo/image_1.jpg" alt="Женщина">
+							</div>
+						</div>
+						<div class="promo__item promo__item_mob">
+							<div class="promo__image promo__image_math">
+								<img data-src="@img/promo/image_2.jpg" alt="Женщина">
+							</div>
+							<div data-da='.promo,767.98,2' class="promo__text"><p>Blandit ultricies amet amet integer nunc volutpat. Blandit sit varius congue lorem habitant adipiscing. Cursus duis arcu, fermentum rhoncus aliquet lectus amet. </p></div>
+						</div>
+					</div>
+				</section>
+				<section class="page__catalog catalog">
+					<div class="catalog__container">
+						<h1 class="catalog__title">Catalog</h1>
+						@@include('html/_catalog-main.htm',{})
+						<a href="catalog.html" class="catalog__button button">Show catalog</a>
+					</div>
+				</section>
+				<section class="page__about about">
+					<div class="about__container">
+						<h2 class="about__title">About us</h2>
+						<div class="about__wrapper">
+							<div class="about__descr">
+								<h3 class="about__title about__title_mbl">Cras nascetur cum nec</h3>
+								<div class="about__text text-about">
+									<div class="text-about__text">
+										<p>Morbi quisque facilisis pretium, ullamcorper. Eget id quisque ridiculus ipsum duis venenatis arcu tristique vestibulum. Integer in praesent pretium aliquam. Lacinia facilisi adipiscing donec orci ut aliquam, elementum cursus. Ut senectus nec sit elementum nulla faucibus adipiscing.</p>
+										<p>Amet ullamcorper elementum neque sodales a. Lectus dolor praesent faucibus blandit. Sit mauris ac at semper tempor quisque adipiscing orci. Urna sagittis nunc lorem amet. Magnis fames faucibus viverra pulvinar lectus vitae lacus ut. Imperdiet quis auctor ullamcorper iaculis risus neque, cursus pulvinar. </p>
+										<p><span>Vitae id nullam</span>Non velit, convallis aliquet vehicula facilisis suspendisse. Urna fusce elit, massa sit cursus sit enim, in in.</p>
+									</div>
+									<div data-showmore="items" data-showmore-media="768.98,max" class="showmore">
+										<button hidden data-showmore-button type="button" class="showmore__more">
+											<span>show more</span>
+											<span>show less</span>
+										</button>
+										<div data-showmore-content="200" class="showmore__content"><p class="showmore__text"><span>Vitae id nullam</span> Non velit, convallis aliquet vehicula facilisis suspendisse. Urna fusce elit, massa sit cursus sit enim, in in. </p></div>
+									</div>
+								</div>
+							</div>
+							<div class="about__image">
+								<img data-src="@img/about/image.jpg" alt="clothes">
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="page__reviews reviews">
+					<div class="reviews__container">
+						<h2 class="reviews__title">Reviews</h2>
+						<div class="reviews__wrapper">
+							<div class="swiper">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide">
+										<div class="reviews__item">
+											<div class="reviews__image">
+												<img src="@img/reviews/girl_1.jpg" alt="Женщина">
+											</div>
+											<div class="reviews__descr">
+												<h3 data-da='.reviews__image,768.98,first' class="reviews__subtitle">Talia Kerin</h3>
+												<p class="reviews__text">Sagittis sed habitasse orci orci. Tellus, nulla magna blandit ornare non, nullam vel. Consectetur quam varius arcu, eget dolor quis. Aliquam lectus lacus maecenas leo, eget tincidunt ut venenatis. Rutrum nibh ac libero, viverra consectetur nunc. Vitae parturient ut facilisi eros, sagittis magna nec. </p>
+												<!-- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, tempore saepe cumque quaerat, architecto facere fugit culpa dolorum itaque laudantium at doloremque obcaecati esse omnis minima nostrum quae consequuntur eius. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis, deleniti et! Consectetur, repellat, impedit porro dolorem quis repellendus omnis placeat quo nostrum ducimus a possimus eligendi fugit sunt distinctio accusamus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, odio dignissimos ullam cumque sit, at accusantium totam consequatur voluptate ut alias? Mollitia quia ea molestias! Nemo aut delectus corrupti quo! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium quas, voluptatibus illo nihil quisquam maiores et modi hic harum dolor aperiam minus fugiat architecto provident, enim, dolores ut aliquid deleniti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis maiores, repellat dolorem mollitia ex fugit aliquam quod, autem ullam eius distinctio laudantium consequatur dolorum qui odit doloribus aspernatur, laborum sint! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo cum illum similique eius praesentium consequuntur esse molestias minima repellat! Nobis repudiandae veniam suscipit illum minima ipsam repellendus pariatur reiciendis sit. -->
+												<div class="reviews__social social">
+													<a href="#" class="social__link _icon-vk"></a>
+													<a href="#" class="social__link _icon-facebook"></a>
+													<a href="#" class="social__link _icon-instagram"></a>
+													<a href="#" class="social__link _icon-telegram"></a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="reviews__item">
+											<div class="reviews__image reviews__image_two">
+												<img src="@img/reviews/girl_2.jpg" alt="Женщина">
+											</div>
+											<div class="reviews__descr">
+												<h3 data-da='.reviews__image_two,768.98,first' class="reviews__subtitle">Talia Kerin</h3>
+												<p class="reviews__text">Sagittis sed habitasse orci orci. Tellus, nulla magna blandit ornare non, nullam vel. Consectetur quam varius arcu, eget dolor quis. Aliquam lectus lacus maecenas leo, eget tincidunt ut venenatis. Rutrum nibh ac libero, viverra consectetur nunc. Vitae parturient ut facilisi eros, sagittis magna nec. Sagittis sed habitasse orci orci. Tellus, nulla magna blandit ornare non, nullam vel. Consectetur quam varius arcu, eget dolor quis. Aliquam lectus lacus maecenas leo, eget tincidunt ut venenatis. Rutrum nibh ac libero, viverra consectetur nunc. Vitae parturient ut facilisi eros, sagittis magna nec.</p>
+												<div class="reviews__social social">
+													<a href="#" class="social__link _icon-vk"></a>
+													<a href="#" class="social__link _icon-facebook"></a>
+													<a href="#" class="social__link _icon-instagram"></a>
+													<a href="#" class="social__link _icon-telegram"></a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="reviews__item">
+											<div class="reviews__image reviews__image_three">
+												<img src="@img/reviews/girl_3.jpg" alt="Женщина">
+											</div>
+											<div class="reviews__descr">
+												<h3 data-da='.reviews__image_three,768.98,first' class="reviews__subtitle">Talia Kerin</h3>
+												<p class="reviews__text">Sagittis sed habitasse orci orci. Tellus, nulla magna blandit ornare non, nullam vel. Consectetur quam varius arcu, eget dolor quis. Aliquam lectus lacus maecenas leo, eget tincidunt ut venenatis. Rutrum nibh ac libero, viverra consectetur nunc. Vitae parturient ut facilisi eros, sagittis magna nec. Rutrum nibh ac libero, viverra consectetur nunc. Vitae parturient ut facilisi eros, sagittis magna nec.</p>
+												<div class="reviews__social social">
+													<a href="#" class="social__link _icon-vk"></a>
+													<a href="#" class="social__link _icon-facebook"></a>
+													<a href="#" class="social__link _icon-instagram"></a>
+													<a href="#" class="social__link _icon-telegram"></a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="reviews__item">
+											<div class="reviews__image reviews__image_four">
+												<img src="@img/reviews/girl_4.jpg" alt="Женщина">
+											</div>
+											<div class="reviews__descr">
+												<h3 data-da='.reviews__image_four,768.98,first' class="reviews__subtitle">Talia Kerin</h3>
+												<p class="reviews__text">Sagittis sed habitasse orci orci. Tellus, nulla magna blandit ornare non, nullam vel. Consectetur quam varius arcu, eget dolor quis. Aliquam lectus lacus maecenas leo, eget tincidunt ut venenatis. Rutrum nibh ac libero, viverra consectetur nunc. Vitae parturient ut facilisi eros, sagittis magna nec.</p>
+												<div class="reviews__social social">
+													<a href="#" class="social__link _icon-vk"></a>
+													<a href="#" class="social__link _icon-facebook"></a>
+													<a href="#" class="social__link _icon-instagram"></a>
+													<a href="#" class="social__link _icon-telegram"></a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="reviews__item">
+											<div class="reviews__image reviews__image_five">
+												<img src="@img/reviews/girl_5.jpg" alt="Женщина">
+											</div>
+											<div class="reviews__descr">
+												<h3 data-da='.reviews__image_five,768.98,first' class="reviews__subtitle">Talia Kerin</h3>
+												<p class="reviews__text">Sagittis sed habitasse orci orci. Tellus, nulla magna blandit ornare non, nullam vel. Consectetur quam varius arcu, eget dolor quis. Aliquam lectus lacus maecenas leo, eget tincidunt ut venenatis. Rutrum nibh ac libero, viverra consectetur nunc. Vitae parturient ut facilisi eros, sagittis magna nec. Vitae parturient ut facilisi eros, sagittis magna nec.</p>
+												<div class="reviews__social social">
+													<a href="#" class="social__link _icon-vk"></a>
+													<a href="#" class="social__link _icon-facebook"></a>
+													<a href="#" class="social__link _icon-instagram"></a>
+													<a href="#" class="social__link _icon-telegram"></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-button-prev"></div>
+								<div class="swiper-button-next"></div>
+							</div>
+
+							<div class="pagin"> <div class="swiper-pagination"></div></div>
+						</div>
+					</div>
+				</section>
+				<section class="contacts">
+					<div class="contacts__container">
+						<h2 class="contacts__title">Contacts</h2>
+						@@include('html/_contacts-main.htm',{})
+					</div>
+					@@include('html/_map-main.htm',{})
+				</section>
+			</main>
+			@@include('html/_footer.htm',{})
+		</div>
+		@@include('html/_popup.htm',{})
+		@@include('html/_js.htm',{})
+	</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+	@@include('html/_head.htm',{
+	"title":"Catalog"
+	})
+	<body>
+		<div class="wrapper">
+			@@include('html/_header.htm',{})
+			<main class="page">
+				<section class="page__catalog catalog catalog_cat">
+					<h1 class="catalog__title catalog__title_bg">Catalog</h1>
+					<div class="catalog__container">
+						@@include('html/_catalog-main.htm',{})
+					</div>
+				</section>
+			</main>
+
+			@@include('html/_footer.htm',{})
+		</div>
+		@@include('html/_popup.htm',{})
+		@@include('html/_js.htm',{})
+	</body>
+</html>
